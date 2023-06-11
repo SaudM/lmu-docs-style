@@ -1,0 +1,275 @@
+#wiki-file-content .article {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+.article {
+    font-size: 16px;
+    color: #1F2329;
+    line-height: 2;
+    font-family: PingFangSC-Light;
+    font-weight: 400;
+    text-align: justify;
+    text-align-last: left;
+}
+
+#wiki-file-content .article h1 {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+
+.article h1, .article h2, .article h3, .article h4, .article h5, .article h6 {
+    font-weight: bold;
+    color: #1F2329;
+    font-family: PingFangSC-Regular;
+}
+.article h1, .article h2, .article h3, .article h4, .article h5, .article h6 {
+    margin: 1.6em 0 0.4em;
+}
+
+
+h1, .h1 {
+    margin: 1.6em 0 0.5em;
+    font-size: 2.1rem;
+    line-height: 2em;
+}
+
+h2 {
+    margin: 1em 0 0.5em;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.article h2 {
+    border-bottom: 0px solid #ccc;
+    line-height: 1.5em;
+}
+
+h3 {
+    margin: 0.5em 0.2em;
+    font-size: 1.25em;
+    line-height: 1.25em;
+}
+
+h4 {
+    font-size: 1.125em;
+    line-height: 1.125em;
+}
+
+h5 {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+strong, b {
+    font-weight: 550;
+}
+
+
+.article p {
+    margin: 0;
+    font-family: PingFangSC-Light;
+    font-size: 0.98em;
+    color: #1F2329;
+    line-height: 2em;
+    font-weight: 400;
+}
+
+.article p code {
+    margin: 0 0.4em;
+    font-size: 80%;
+    border: none;
+    background: #E7EFFF;
+    color:revert;
+}
+
+
+.article ul {
+    padding-left: 1.2em;
+}
+
+.article ul ul {
+    padding-left: 0;
+}
+
+.article ol {
+    padding-left: 1em;
+    list-style-position: outside;
+}
+
+
+li {
+
+    font-size: 0.98em;
+    line-height: 2.4em;
+}
+
+li li {
+    margin: 0 1em;
+}
+
+
+li::marker {
+    color: #286EF0;
+    font-size: 1em; /* 根据 line-height 来计算 */
+    line-height: inherit; /* 继承 li 的 line-height */
+    vertical-align: middle; /* 垂直居中 */
+}
+
+
+.article ul {
+    list-style-type: revert;
+}
+
+.article ul, .article ol {
+    margin: 0;
+}
+
+ol ol {
+    padding: 0 0.5em 0;
+    list-style-type: upper-alpha; /* 大写英文字母*/
+}
+
+
+ol ol ol {
+    padding: 0 0.5em 0;
+    list-style-type: lower-alpha; /* 小写英文字母 */
+}
+
+
+img {
+    margin: 1.2em 0 1.2em;
+}
+
+.article pre {
+    background: #F6F9FF;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    margin: 1em 0;
+    white-space: pre-wrap;
+}
+
+div.code-toolbar {
+    position: relative;
+    padding: 1em 0;
+}
+
+
+pre[class*=language-] {
+    padding: 2em;
+}
+
+pre {
+    color: #343a40;
+    padding: 1rem;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    tab-size: 4;
+    text-shadow: 0 1px white;
+    hyphens: none;
+    background: #F6F9FF;
+    border: 2px solid rgba(203, 223, 254, 1);
+    border-radius: 3em;
+}
+
+.article blockquote {
+    border-radius: 0 0.25rem 0.25rem 0;
+    /*font-style: normal;*/
+    color: #888888;
+}
+
+.article tr:first-child {
+    font-weight: normal;
+}
+
+.article table {
+    width: 100%;
+    border-collapse: collapse;
+    border-left: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    margin: 2em 0;
+}
+
+
+.article table td, .article table th {
+    flex: 1;
+    border-width: 0 1px 0px 0;
+    border-style: solid;
+    border-color: #ededed;
+    word-break: break-all;
+    line-height: 1.5;
+}
+
+table td {
+    padding: 1rem 1rem;
+    color: #515151;
+    font-size: 1rem;
+    word-break: break-all;
+}
+
+
+table th {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    color: #444444;
+    background: #F1F6FF;
+}
+
+blockquote p {
+    margin-bottom: 1rem;
+    color: #777777 !important;
+}
+
+thead {
+    background-color: #F1F6FF;
+}
+
+.article tr:nth-child(2n+1) {
+    background-color: #FFFFFF;
+}
+
+.article tr:nth-child(2n) {
+    background-color: #F8F8F8;
+}
+
+
+a {
+    color: #2B87F0;;
+}
+
+
+#wiki-file-content .seafile-markdown-outline .outline-h2.active, #wiki-file-content .seafile-markdown-outline .outline-h3.active {
+    color: #2B87F0;
+}
+
+
+.seafile-markdown-outline .active {
+    border-left: 2px solid #2B87F0;
+}
+
+
+.wiki-nav-content-highlight a, .wiki-nav-content a:hover {
+    text-decoration: none;
+    color: #2B87F0;
+}
+
+.cur-view-content .wiki-page-container .outline-h2.active, .cur-view-content .wiki-page-container .outline-h3.active {
+    color: #2B87F0;
+}
+.wiki-main-panel .main-panel-north {
+    border: none;
+}
+.wiki-side-panel .panel-top{
+    border: none;
+}
+
+.wiki-side-nav {
+    border: none;
+}
+#wiki-page-last-modified {
+    display: none;
+}
