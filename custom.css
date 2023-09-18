@@ -1,3 +1,4 @@
+
 #wiki-file-content .article {
     padding-left: 2em;
     padding-right: 2em;
@@ -270,16 +271,41 @@ a {
 .wiki-side-nav {
     border: none;
 }
-#wiki-page-last-modified {
-    display: none;
+
+#wiki-file-content #wiki-page-last-modified {
+    color: #7E8288;
+    font-size: 0.8em;
+    font-family: PingFang SC;
+    line-height: 1.6em;
+    border-top: 1px solid #ddd;
+    padding: 5px 0 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
+
+#wiki-page-last-modified {
+    color: #7E8288;
+    font-size: 0.8em;
+    font-family: PingFang SC;
+    line-height: 1.6em;
+    border-top: 1px solid #ddd;
+    padding: 5px 0 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
 
 .shared-file-view-md-header {
     background: #f4f4f7;
     padding: 8px 16px 8px;
+    height: 80px;
 }
 
 .shared-file-view-head {
     height: 90px;
+}
+
+
+.shared-file-view-md-main {
     background: #f4f4f7;
 }
