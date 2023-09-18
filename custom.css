@@ -273,3 +273,13 @@ a {
 #wiki-page-last-modified {
     display: none;
 }
+
+.shared-file-view-md-header {
+    background: #f4f4f7;
+    padding: 8px 16px 8px;
+}
+
+.shared-file-view-head {
+    height: 90px;
+    background: #f4f4f7;
+}
